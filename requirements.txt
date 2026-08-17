@@ -1,0 +1,8 @@
+# PyLinks — zależności
+# Reszta funkcji korzysta z biblioteki standardowej (tkinter, sqlite3, urllib, ctypes...).
+
+Pillow>=9.0        # obróbka grafik i generowanie ikon (.ico)
+
+# Opcjonalnie — kompresja stubów. Przy braku PyLinks próbuje doinstalować
+# automatycznie, a jako fallback używa gzip (stdlib).
+zstandard>=0.20    # opcjonalne

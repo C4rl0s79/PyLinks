@@ -1,0 +1,22 @@
+# Katalogi robocze tworzone przy uruchomieniu (obok skryptu)
+/Cache/
+/LINKS/
+/Reports/
+
+# Konfiguracja użytkownika i klucze API
+config.json
+config.json.bak*
+*.create-links-config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Kopie zapasowe / logi / śmieci
+*.bak
+*.log
+*.spec
+Thumbs.db
